@@ -1,0 +1,12 @@
+{
+    "aws": {
+        "accessKeyID": "",
+        "secretAccessKey": "",
+        "region": "",
+        "bucket": ""
+    },
+    "serverSettings": {
+        "port": 8080,
+        "timeout": 1800000
+    }
+}
