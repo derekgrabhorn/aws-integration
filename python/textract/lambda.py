@@ -52,8 +52,8 @@ def get_job_results(aws_client, job_id):
 
 if __name__ == "__main__":
     # Document
-    s3_bucket = "derekgrabhorn"
-    document_name = "Equifax.pdf"
+    s3_bucket = "AWS_BUCKET"
+    document_name = "DOCUMENT_TO_SEARCH"
     client = boto3.client('textract', 
         aws_access_key_id='ACCESS_KEY',
         aws_secret_access_key='SECRET_ACCESS_KEY',
